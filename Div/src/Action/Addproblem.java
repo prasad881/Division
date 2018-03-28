@@ -35,6 +35,7 @@ public class Addproblem {
     	Addprobleminspects.User().sendKeys(Addproblem_Data.user1);
     	Addprobleminspects.pass().sendKeys(Addproblem_Data.pass1);
     	System.out.println("change");
+    	System.out.println("change1");
 		Thread.sleep(5000);
 		Addprobleminspects.login().click();
     	File f=new File("E:\\BJP Excel1.xlsx");
